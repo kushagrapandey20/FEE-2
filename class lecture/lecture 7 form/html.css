@@ -1,0 +1,33 @@
+
+    body {
+        align-items: center;
+        background-color:chartreuse;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+    }
+.form{
+    background-color: bisque;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 50%;
+}
+h1 ,h2{
+    text-align: center;
+}
+.id{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.gender{
+    text-align: center;
+}
+address{
+    text-align: center;
+}
+.sub{
+    border-radius: 20px;
+    color:darkblue;
+}

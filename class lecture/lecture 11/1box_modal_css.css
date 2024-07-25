@@ -1,0 +1,10 @@
+div{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+    
+}
+body{
+    border: 2px solid red;
+    /* padding: 50px 40px 30px; */
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: red;
+    display: flex;
+    height: 50vh;
+    width:80vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.boxes{
+    height: 100px;
+    width: 150px;
+    background-color: green;
+    border: 5px solid black;
+    flex-direction: column;
+}
