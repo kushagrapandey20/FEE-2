@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Button</title>
+</head>
+<body>
+
+  <div id="button-container"></div>
+
+  <script>
+    
+    var button = document.createElement('button');
+    
+
+    button.innerHTML = 'Click Me';
+    
+
+    button.onclick = function() {
+      alert('Button clicked!');
+    };
+    
+
+    document.getElementById('button-container').appendChild(button);
+  </script>
+
+</body>
+</html>

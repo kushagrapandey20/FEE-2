@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive User Profile Editor</title>
+    <style>
+        .profile {
+            text-align: center;
+            background-color: rgb(232, 9, 87);
+            color: white ;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 50px auto;
+        }
+
+        .profile img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        .input-section {
+            text-align: center;
+            background-color:  rgb(142, 20, 236);
+            color:white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 20px auto;
+            font-size: 20px;
+        }
+
+        .input-section label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .input-section input {
+            width: 80%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 8px 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: #090c0f;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #b1cd11;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile">
+        <img id="profile-pic" src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" alt="Profile Picture May be Cute/Handsome">
+       <h2>NAME : </h2> <h2 id="profile-name">____________</h2>
+       <h2>BIO : </h2> <h2 id="profile-bio">_____________ </h2>
+    </div>
+
+    <div class="input-section">
+        <label for="name-input">Update Name Above :</label>
+        <input type="text" id="name-input" placeholder="Enter Another Name"><br>
+
+        <label for="bio-input">Update Bio Above :</label>
+        <input type="text" id="bio-input" placeholder="Enter Another Bio"><br>
+
+        <label for="pic-input">Update Profile Picture URL :</label>
+        <input type="text" id="pic-input" placeholder="Enter URL For Image"><br>
+
+        <button id="update-button">APPLY CHANGES </button>
+    </div>
+
+    <script src="profilejs.js"></script>
+</body>
+
+</html>
